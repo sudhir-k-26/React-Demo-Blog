@@ -100,3 +100,47 @@
   border-radius: 8px;
   cursor: pointer;
 }
+/* pagination style
+*
+*
+*/
+.pagination
+{
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: .25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.page-item
+{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.page-link
+{
+  position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+}
+.active
+{
+    z-index: 1;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.disabled a
+{
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}

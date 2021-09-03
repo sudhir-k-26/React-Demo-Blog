@@ -23,6 +23,18 @@
       "body": "Duis bibendum nisl a arcu porttitor malesuada...",
       "id": 4,
       "author": "Ajay"
+    },
+    {
+      "title": "Health Blog",
+      "body": "This blog is related to health and fitness tips",
+      "author": "Arjun",
+      "id": 5
+    },
+    {
+      "title": "Food Blog",
+      "body": "This blog is related to food blog ",
+      "author": "Ajay",
+      "id": 6
     }
   ]
 }
